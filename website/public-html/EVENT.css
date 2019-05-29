@@ -1,0 +1,144 @@
+.
+/* CARDS */
+.qw{
+ position:relative;
+ height:98%;
+}
+
+.ms{
+ height:96%;
+}
+
+#pro-e{
+ height:99%;
+}
+
+#fin-e{
+ height:99%;
+}
+
+.ad{
+ height:95.5%;
+}
+
+.pol{
+ height:95.5%;
+}
+
+.card-text{
+ text-align:center;
+}
+
+.mini{
+ text-align:justify;
+}
+
+
+.pro-mini,.fin-mini{
+ position:relative;
+ top:40px;
+}
+
+
+/* CARD-BUTTONS */
+
+.btn-group{
+ margin:auto;
+}
+.qw-b{
+  margin-top:20%;
+}
+
+.ms-b{
+  margin-top:6%;
+}
+
+
+
+#pro-be{
+position:relative;
+top:90px;
+}
+
+#fin-be{
+ position:relative;
+ top:30px;
+}
+
+.ad-b{
+ position:relative;
+ top:30px;
+}
+
+.pol-b{
+ position:relative;
+ top:61px;
+}
+
+/*BOTTOM TEXT*/
+
+ #ev-top{
+  position:relative;
+  bottom:20px;
+  margin-left:46%;
+ }
+ 
+ #ev-top a{
+ padding:8px 20px;
+ border:2px solid #d63031;
+ text-decoration:none;
+ color:#d63031;
+ }
+ 
+ #ev-top a:hover{
+  border:2px solid #fff;
+  color:#fff;
+  background-color:#d63031;
+ }
+ 
+
+ /*REGISTRATION PAGE*/
+ 
+ /* CARDS LENGTH */
+ 
+#fin-r{
+height:105%;
+}
+
+#pro-r{
+height:96%;
+}
+
+#pro-br{
+position:relative;
+top:60px;
+}
+
+#fin-br{
+ margin:auto;
+ position:relative;
+ top:60px;
+}
+
+/*BOTTOM REG PAGE BUTTON */
+
+#reg-top{
+  position:relative;
+  margin-top:7%;
+  margin-left:46%;
+ }
+ 
+ #reg-top a{
+ padding:8px 20px;
+ border:2px solid #d63031;
+ text-decoration:none;
+ color:#d63031;
+ }
+ 
+ #reg-top a:hover{
+  border:2px solid #fff;
+  color:#fff;
+  background-color:#d63031;
+ }
+ 
+

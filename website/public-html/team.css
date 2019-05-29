@@ -1,0 +1,169 @@
+body{
+
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/team-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+ background-repeat: no-repeat;
+ height:100%;
+}
+
+.team{
+  padding: 8px 20px;
+  margin:auto;
+  margin-top:30px;
+  width:300px;
+  border:2px solid #fff;
+  color:#fff;
+  text-align:center;
+}
+
+#carousel{
+   margin-left:150px;
+   margin-top:100px;
+}
+
+.rounded-circle{
+    height:170px;
+    width:170px;
+    
+   }
+   
+  .front{
+     
+    margin-top:15px;
+  }
+  
+  
+  .name{
+    margin:auto;
+    font-weight:600;
+    color:#fff;
+  }
+  
+  .designation{
+    margin:auto;
+    font-size:18px;
+    color:#fff;
+  }
+  
+  .gargava,.naman,.paul,.yash,.bhambri,.vikas,.tenzin,.sushant,.pritam,.robin,.shivam,.harshit,.rewant,.singh {
+     margin-left:20px;
+     border: 2px solid #d63031;
+  }
+  
+
+  .yash,.bhambri,.vikas,.tenzin,.sushant,.pritam,.robin,.shivam,.harshit,.rewant,.singh {
+    margin-top:50px;
+  }
+ 
+  .one-one{
+    margin-left:40px;
+  }
+  
+  .two-two{
+    margin-left:35px;
+  }
+  
+  .three{
+    margin-left:11%;
+  }
+  
+  .four{
+   margin-left:13%;
+  }
+  
+  .four-four{
+   margin-left:16%;
+  }
+  
+  .five{
+   margin-left:3%;
+  }
+  .five-five{
+   margin-left:11%;
+  }
+  
+  
+  .six{
+   margin-left:12%;
+  }
+  
+  .six-six{
+   margin-left:16%;
+  }
+  
+  .seven-seven{
+   margin-left:13%;
+  }
+  
+  
+  .eight{
+   margin-left:5%;
+  }
+  
+  .eight-eight{
+    margin-left:13%;
+  }
+  
+  .nine{
+   margin-left:20%;
+  }
+  
+  
+  .nine-nine{
+   margin-left:7%;
+  }
+  
+  .ten-ten{
+   margin-left:10%;
+  }
+  
+  .eleven-eleven{
+  margin-left:3%;
+  }
+  
+  .twelve{
+   margin-left:19%;
+  }
+  
+  .twelve-twelve{
+   margin-left:20%;
+  }
+  
+  .teen{
+   margin-left:11%;
+  }
+  
+  .teen-teen{
+   margin-left:5%;
+  }
+  
+  .fourteen{
+   margin-left:5%;
+  }
+  
+  .fourteen-fourteen{
+   margin-left:10%;
+  }
+  
+  .text-bottom{
+    margin-top:5%;
+   margin-left:38%;
+   color:#d63031;
+  }
+  
+  .text-bottom a{
+    padding:8px 20px;
+    border:2px solid #fff;
+    text-decoration:none;
+    color:#fff;
+  }
+  
+  .text-bottom a:hover{
+   border:2px solid #fff;
+   color:#fff;
+   background-color:#000;
+  }
+  
+ 

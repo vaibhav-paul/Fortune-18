@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+     <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="grid.css">
+    <link rel="stylesheet" type="text/css" href="fortune18.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/assets_arrow_131622077723455294.ico">
+  
+    
+    <title>FORTUNE'18</title>
+</head>  
+<body>
+    <header>
+        <nav>
+        <div class="row">
+          <img src="img/fortune%20logo.png" alt="Fortune logo" class="logo">  
+          <ul class="main-nav">
+            <div class="dropdown">
+            <li><a href="#" class="dropbtn">About us</a></li>
+            <div class="dropdown-content">
+            <a href="about_us.html">About Society</a>
+            <a href="FORTUNE.html" class="fortune">Fortune</a>
+            </div>
+             </div>
+            <li><a href="TEAM.html">Our Team</a></li>
+            <li><a href="form.php">Contact Us</a></li>
+          </ul>
+        </div>
+            
+        </nav>
+    <div class="hero-text-box">
+        <h1>WELCOME TO FORTUNE'18<br></h1>
+        <a class="btn btn-full" href="EVENT.html">Events</a>
+        <a class="btn btn-ghost" href="register.html">Register</a>  
+    </div> 
+    
+    <div class="row">
+        <p class="timer-text">FORTUNE'18 begins in:</p>
+        <div id="countdown"></div>
+    </div>
+    
+    
+    
+    </header>
+    
+    <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Mar 20, 2018 10:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+     document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown").innerHTML = "FORTUNE'18 WELCOMES YOU";
+    }
+}, 1000);
+</script>
+
+</body>
+    
+    
+    
+</html>
+
+<!--
+
+
+-->
+

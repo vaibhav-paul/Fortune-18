@@ -1,0 +1,71 @@
+.fortune-text{
+  color:#000;
+  margin:auto;
+  margin-top:5%;
+  margin-left:37%;
+  border:2px solid #000;
+  width:350px;
+  padding:8px 20px;
+  text-align:center;
+}
+
+
+.fortune-para{
+ margin-top:5%;
+ word-spacing:1px;
+ line-height:170%;
+ font-weight:500;
+ text-align:justify;
+ 
+ }
+
+
+.fortune17-text{
+ color:#000;
+  margin:auto;
+  margin-top:5%;
+  margin-left:34%;
+  border:2px solid #000;
+  width:400px;
+  padding:8px 20px;
+  text-align:center;
+  
+}
+
+/*GLIMPSES COLLAGE */
+
+.section-meals{
+    margin-top:4%;
+    padding: 0;
+}
+.meals-showcase{
+    list-style:none;
+    width:100%;
+    
+}
+
+.meals-showcase li{
+    display: block;
+    float:left;
+    width: 25%;
+}
+
+.meal-photo{
+    width:100%;
+    margin:0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-photo img{
+    opacity: 0.7;
+    width:100%;
+    height:auto;
+    transform: scale(1.03);
+    transition: transform 0.5s,opacity 0.5s;
+}
+
+.meal-photo img:hover{
+    opacity:1;
+    transform:scale(1.15); 
+}
